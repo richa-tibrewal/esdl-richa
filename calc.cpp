@@ -1,6 +1,11 @@
 #include<iostream.h>
 #include<conio.h>
-void main()
+int main()
 {
-cout<<"This is a calculator program";
+  int a = 5;
+  int b = 8;
+  int c=a+b;
+cout<<"This is a calculator program \n";
+cout<<"The result is "<<c;
+return 0;
 }
